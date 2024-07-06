@@ -1,0 +1,89 @@
+:root {
+   --linksunderline: none;
+   --textcolor: 10,132,154;
+   --szovegkozhatter: 106,167,190,0.2;
+}
+body{
+   font-family: Verdana;
+}
+p{
+   text-indent: 2rem;
+   line-height: 2rem;
+   text-align: justify;
+}
+
+#fuggosegkepbal{
+   margin-left: 10px;
+}
+
+a{
+   color: rgb(var(--textcolor));
+   text-decoration: var(--linksunderline);
+   font-weight: bold;
+}
+
+.szovegkoz{
+   background-color: rgb(var(--szovegkozhatter));
+   padding: 3px;
+}
+
+
+#fuggosegkepjobb{
+   margin-right: 10px;
+}
+
+table{
+   background-color: #afd1ea;
+}
+
+ul li{
+   list-style-image: url("img/conroller.jpg");
+   line-height: 30px;
+}
+
+ol li{
+   margin-left: 20px;
+   line-height: 30px;
+}
+
+.kepek {
+   max-width: 300px;
+   padding: 15px;
+   border: solid rgb(var(--szovegkozhatter));
+}
+
+#fuggosegkep{
+   max-width: 600px;
+   padding: 15px;
+   border: solid rgb(var(--szovegkozhatter));
+   margin-top: 5%;
+}
+.szamozasSotet{
+   background-color: rgba(var(--szovegkozhatter));
+   padding: 5px;
+}
+.szamozasVilagos{
+   background-color: #afd1ea;
+   padding: 5px;
+}
+.link:hover{
+   background-color: rgba(var(--szovegkozhatter));
+}
+.link:visited{
+   color: yellowgreen;
+   text-decoration: none;
+}
+.card:hover{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.vertical-line {
+   width: 1px;
+   height: 40px;
+   background-color: black;
+   margin: 2px;
+ }
+
+ .nav-link:hover{
+   background-color: rgba(var(--szovegkozhatter));
+ }
